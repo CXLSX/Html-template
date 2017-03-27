@@ -1,42 +1,49 @@
 /* media queries */
 /* ------------------------------------------------------------------------- */
 
-/* mobile small (iphone 3/4/5) ----------- */
-@media only screen and (max-width : 320px)  {
-
-
-}
-/* mobile large (android) ----------- */
-@media only screen and (max-width : 685px)  {
-	
-}
-/* ipad portrait/landscape ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+****************************/
+/* Max Width 1520px */
+/****************************/
+@media only screen and (max-width: 1520px){
+.fullwidth img{max-width: 100%;}
 
 }
-/* ipad portrait ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)  {
-	
-}
-/* ipad landscape ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)  {
 
-
-}
-/* small displays ----------- */
-@media only screen and (min-width : 600px)  {
+/* Displays/Screens (e.g. MacBook @ 1280x800) -------------- */
+@media
+only screen and (min-width: 1250px) and (max-width: 1409px) {
 	
 }
 
-/* 13 inch displays ----------- */
-@media only screen and (min-width : 1224px)  {
-	
+
+/****************************/
+/* Max Width 1360px */
+/****************************/
+@media only screen and (max-width: 1360px){
+
 }
-/* 24 inch iMac ----------- */
-@media only screen and (min-width : 1600px) {
-	
+
+
+/****************************/
+/* Between 960px and 1190px */
+/****************************/
+@media only screen and (min-width: 980px) and (max-width: 1190px) {
+.fullwidth img{max-width: 100%;}
+
 }
-/* 27 inch iMac ----------- */
-@media only screen and (min-width : 2400px) {
-	
+
+
+/****************************/
+/* Between 783px and 980px */
+/****************************/
+@media only screen and (min-width: 783px) and (max-width: 979px) {
+.fullwidth img{max-width: 100%;}
+}
+
+
+/****************************/
+/* Below 782px */
+/****************************/
+@media only screen and (max-width: 782px){
+
 }
