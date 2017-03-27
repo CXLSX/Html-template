@@ -5,7 +5,6 @@
 /* Max Width 1520px */
 /****************************/
 @media only screen and (max-width: 1520px){
-.fullwidth img{max-width: 100%;}
 
 }
 
@@ -28,7 +27,6 @@ only screen and (min-width: 1250px) and (max-width: 1409px) {
 /* Between 960px and 1190px */
 /****************************/
 @media only screen and (min-width: 980px) and (max-width: 1190px) {
-.fullwidth img{max-width: 100%;}
 
 }
 
@@ -37,7 +35,6 @@ only screen and (min-width: 1250px) and (max-width: 1409px) {
 /* Between 783px and 980px */
 /****************************/
 @media only screen and (min-width: 783px) and (max-width: 979px) {
-.fullwidth img{max-width: 100%;}
 }
 
 
